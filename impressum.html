@@ -5,27 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Impressum – Taxi Müller</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <main class="container small">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Start</a></li>
+      <li><a href="index.html#services">Leistungen</a></li>
+      <li><a href="index.html#contact">Kontakt</a></li>
+      <li><a href="impressum.html" class="active">Impressum</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="hero small-hero">
     <h1>Impressum</h1>
+    <p>Angaben gemäß § 5 TMG</p>
+  </header>
 
-    <p><strong>Taxi Müller</strong><br>
-       Inhaber: Max Müller<br>
-       Musterstraße 12<br>
-       12345 Musterstadt</p>
+  <main class="container small">
+    <section>
+      <h2>Betreiber der Website</h2>
+      <div class="card">
+        <p><strong>Taxi Müller</strong><br>
+        Inhaber: Max Müller<br>
+        Musterstraße 12<br>
+        12345 Musterstadt</p>
+      </div>
+    </section>
 
-    <p>Telefon: <a href="tel:+491234567890">+49 123 4567890</a><br>
-       E-Mail: <a href="mailto:info@taximueller.de">info@taximueller.de</a></p>
+    <section>
+      <h2>Kontakt</h2>
+      <div class="card">
+        <p>Telefon: <a href="tel:+491234567890">+49 123 4567890</a><br>
+        E-Mail: <a href="mailto:info@taximueller.de">info@taximueller.de</a></p>
+      </div>
+    </section>
 
-    <p>Umsatzsteuer-ID: DE123456789</p>
+    <section>
+      <h2>Umsatzsteuer-ID</h2>
+      <div class="card">
+        <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+        <strong>DE123456789</strong></p>
+      </div>
+    </section>
 
-    <p>Verantwortlich gemäß § 55 Abs. 2 RStV:<br>
-       Max Müller</p>
+    <section>
+      <h2>Verantwortlich für den Inhalt</h2>
+      <div class="card">
+        <p>Max Müller<br>
+        gemäß § 55 Abs. 2 RStV</p>
+      </div>
+    </section>
 
-    <p><a href="index.html">Zurück zur Startseite</a></p>
+    <div style="text-align:center; margin-top:2rem;">
+      <a href="index.html" class="btn">Zur Startseite</a>
+    </div>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Taxi Müller – <a href="impressum.html">Impressum</a></p>
+  </footer>
 
 </body>
 </html>
